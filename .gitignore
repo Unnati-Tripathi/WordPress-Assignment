@@ -1,0 +1,31 @@
+# WordPress core files (never commit these)
+wp-admin/
+wp-includes/
+wp-content/
+wp-config.php
+wp-config-sample.php
+*.sql
+
+# All-in-One WP Migration export files (contain full site data + credentials)
+*.wpress
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LocalWP environment files
+.local-*
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node modules (if any build tools are used)
+node_modules/
+
+# Logs
+*.log
